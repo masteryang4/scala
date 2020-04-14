@@ -19,7 +19,7 @@ object Scala17_Function16 {
         //rang.foreach(test)
 //        rang.foreach( (i:Int)=>{println(i)} )
 //        rang.foreach( (i:Int)=>println(i) )
-//        rang.foreach( (i)=>println(i) )
+        //        rang.foreach( (i)=>println(i) )
 //        rang.foreach( i=>println(i) )
 //        rang.foreach( println(_) )
         rang.foreach( println )
