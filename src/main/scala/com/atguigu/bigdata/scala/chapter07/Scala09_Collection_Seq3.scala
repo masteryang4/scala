@@ -22,6 +22,11 @@ object Scala09_Collection_Seq3 {
         val buffer: mutable.Buffer[Int] = list1.toBuffer
         // 可变集合 => 不可变集合
         val list: List[Int] = ListBuffer(1,2,3,4).toList
+
+        val ints1: ListBuffer[Int] = ListBuffer(1,2,3,4)
+
+        val ints2: ListBuffer[Int] = ints1:+1
+        println(ints1 eq ints2)
     }
 }
 

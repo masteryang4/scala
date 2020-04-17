@@ -39,6 +39,7 @@ object Scala04_Collection_Array2 {
 //        buffer1.foreach(println(_))
         buffer1.foreach(println)
 
+        //buffer1 ++ 1
 
 
     }

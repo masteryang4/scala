@@ -8,8 +8,11 @@ object Scala01_Collection {
 
         // Scala - 集合
         // TODO Scala集合默认使用的都是不可变集合:immutable
-        Map
-        Set
-        HashSet
+        // TODO Scala集合使用的都是可变集合:mutable
+        // List => Seq => Iterable => Traversable => GenTraversable
+        //                                        => TraversableOnce
+        //                         => GenIterable => GenTraversable
+        //                                        => GenTraversableOnce
+        List
     }
 }
